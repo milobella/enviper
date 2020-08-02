@@ -9,6 +9,11 @@
 Package enviper is a helper/wrapper for [viper](http://github.com/spf13/viper) with the same API.
 It makes it possible to unmarshal config to struct considering environment variables.
 
+> Attention : this repository is a fork for specific purpose.
+> Use it only if you absolutely need to override **map values** with environment variables.
+>
+> Otherwise, you should use the main repository https://github.com/iamolegga/enviper
+
 ## Problem
 
 [Viper](https://github.com/spf13/viper) package doesn't consider environment variables while unmarshaling.
@@ -88,3 +93,7 @@ Thanks to
 and
 [celian-garcia](https://github.com/celian-garcia) ([issuecomment-626122696](https://github.com/spf13/viper/issues/761#issuecomment-626122696))
 for inspiring.
+
+Thanks to
+[iamolegga](https://github.com/iamolegga)
+for taking the time to create this [enviper](https://github.com/iamolegga/enviper) library.

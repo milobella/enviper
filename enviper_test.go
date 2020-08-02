@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/iamolegga/enviper"
+	"github.com/milobella/enviper"
 )
 
 func TestUnmarshal(t *testing.T) {
